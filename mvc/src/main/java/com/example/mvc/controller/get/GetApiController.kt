@@ -51,7 +51,7 @@ class GetApiController {
     }
 
     // 객체로 쿼리 파라미터 받기
-    // name, age, address, email
+    // name, age, address, email로 data class의 변수명과 동일하게 들어와야 매핑이 된다.
     /* url에는 대문자를 쓰지 않는 것이 좋다고 했다.
     * 따라서 phonenumber 또는 phone-number로 작성하는 것이 좋다.
     * 하지만 코틀린에서는 변수에 하이픈을 쓸 수 없기 때문에 object로 받는 경우 phone-number로 받는 것은 불가능하다.
